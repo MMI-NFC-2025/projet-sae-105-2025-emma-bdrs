@@ -9,30 +9,34 @@
 </head>
 <body>
     <div class="container">
+        <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
         <header class="header">
             <div class="header__logo">
-                <a href="index.html"><img src="../assets/img/logo.png" alt="Women Of Logics"></a>
+                <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
             </div>
-            <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
             <label for="menu-toggle" class="header__menu" aria-label="Menu">
                 <span class="header__menu-line"></span>
                 <span class="header__menu-line"></span>
                 <span class="header__menu-line"></span>
             </label>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
-                    <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
-                    <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
-                    <li><a href="doctor-who.html">Doctor Who et la réécriture du temps</a></li>
-                    <li><a href="calcul-nerveux.html">En quête d'un calcul du système nerveux</a></li>
-                    <li><a href="a-propos.html">À propos</a></li>
-                    <li><a href="glossaire.html">Glossaire</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
         </header>
+        <nav class="header__nav">
+            <div class="header__nav-header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
+                </div>
+                <label for="menu-toggle" class="header__nav-close" aria-label="Fermer le menu">×</label>
+            </div>
+            <ul class="header__nav-list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
+                <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
+                <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
+                <li><a href="doctor-who.html">Doctor Who et la réécriture du temps</a></li>
+                <li><a href="calcul-nerveux.html">En quête d'un calcul du système nerveux</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+            </ul>
+        </nav>
 
         <section class="hero">
             <p class="hero__subtitle">Women Of Logics</p>
@@ -42,19 +46,17 @@
 
         <div class="section-title">
             <div class="section-title__line"></div>
-            <h2 class="section-title__text">Du moteur analytique au calcul du vivant</h2>
+            <h2 class="section-title__text">Au-delà des machines calculatrices</h2>
         </div>
 
         <article class="article">
-            <img src="../assets/img/moteur-hero.jpg" alt="Moteur analytique" class="article__image">
+            <img src="../assets/img/article3photo1.avif" alt="Moteur analytique" class="article__image">
             <p class="article__caption">Illustration du site "garance et moi"</p>
-
-            <h3 class="article__section-title">Au-delà des machines calculatrices</h3>
             <p class="article__content">
                 Ada Lovelace ne se contentait pas d'imaginer des machines capables d'effectuer des calculs. Ses écrits révèlent une fascination profonde pour les processus mentaux et biologiques, esquissant une vision étonnamment moderne de la computation dans les systèmes vivants.
             </p>
 
-            <img src="../assets/img/moteur-machine.jpg" alt="Machine analytique" class="article__image">
+            <img src="../assets/img/article3photo2.avif" alt="Machine analytique" class="article__image">
             <p class="article__caption">Ancêtre de l'ordinateur</p>
 
             <h3 class="article__section-title">Le "calcul du système nerveux"</h3>
@@ -62,7 +64,7 @@
                 Bien avant l'émergence des neurosciences, elle nourrissait l'intuition audacieuse que les principes mathématiques gouvernant le moteur analytique pouvaient éclairer le fonctionnement du cerveau et du système nerveux. Dans sa correspondance personnelle, Ada évoque régulièrement son désir de découvrir les "lois mathématiques" régissant les phénomènes nerveux. Elle développe ce qu'elle nomme le "calcul du système nerveux", une tentative précoce de modéliser mathématiquement les processus biologiques.
             </p>
 
-            <img src="../assets/img/moteur-notes.jpg" alt="Notes d'Ada" class="article__image">
+            <img src="../assets/img/article3photo3.avif" alt="Notes d'Ada" class="article__image">
             <p class="article__caption">Programme de calcul des nombres de Bernoulli dans la note G d'Ada Lovelace (1843).</p>
 
             <h3 class="article__section-title">Une pensée en avance sur son temps</h3>
@@ -75,7 +77,7 @@
                 Sa compréhension du moteur analytique comme manipulateur de symboles l'amenait naturellement à concevoir le cerveau selon des principes similaires. Ce qui rend sa vision particulièrement remarquable, c'est sa volonté d'établir un pont entre computation symbolique et processus biologiques. Pour Ada Lovelace, les machines n'étaient pas de simples outils : elles pouvaient devenir des modèles pour comprendre la vie elle-même.
             </p>
 
-            <img src="../assets/img/moteur-babbage.jpg" alt="Modèle du moteur" class="article__image">
+            <img src="../assets/img/article3photo4.avif" alt="Modèle du moteur" class="article__image">
             <p class="article__caption">Modèle du Analytical Engine de Charles Babbage</p>
 
             <h3 class="article__section-title">La "science poétique" d'Ada Lovelace</h3>
@@ -83,8 +85,11 @@
                 L'intérêt d'Ada pour les mathématiques du vivant s'inscrit dans le contexte du romantisme scientifique du XIXe siècle. Des penseurs comme Samuel Taylor Coleridge exploraient les correspondances entre nature, esprit et création artistique. Nourrie de cette culture, Ada cherchait une unification entre mécanique et organique, entre calcul et vie. Sa "science poétique" reflétait cette quête d'harmonie universelle.
             </p>
 
-            <img src="../assets/img/moteur-model.jpg" alt="Analytical Engine" class="article__image">
+            <img src="../assets/img/article3photo5.avif" alt="Analytical Engine" class="article__image">
             <p class="article__caption">Le croquis du Analytical Engine de Charles Babbage</p>
+
+            <img src="../assets/img/article3photo6.avif" alt="Modèle du Analytical Engine" class="article__image">
+            <p class="article__caption">Modèle du Analytical Engine de Charles Babbage</p>
 
             <h3 class="article__section-title">L'héritage dans la science contemporaine</h3>
             <p class="article__content">
@@ -110,7 +115,7 @@
 
         <footer class="footer">
             <div class="footer__logo">
-                <img src="../assets/img/logo.png" alt="Women Of Logics">
+                <img src="../assets/img/logo.avif" alt="Women Of Logics">
             </div>
             <p class="footer__author">Badarous Emma TP-A1</p>
             <p class="footer__credit">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
@@ -120,7 +125,7 @@
                 <a href="../en/moteur-analytique.html">En</a>
             </div>
             <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" class="footer__mmi">
-                <img src="../assets/img/logo-mmi.png" alt="MMI Montbéliard">
+                <img src="../assets/img/mmi.avif" alt="MMI Montbéliard">
             </a>
         </footer>
     </div>

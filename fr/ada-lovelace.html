@@ -10,32 +10,36 @@
 <body>
     <div class="container">
         <!-- Header -->
+        <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
         <header class="header">
             <div class="header__logo">
                 <a href="index.html">
-                    <img src="../assets/img/logo.png" alt="Women Of Logics">
+                    <img src="../assets/img/logo.avif" alt="Women Of Logics">
                 </a>
             </div>
-            <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
             <label for="menu-toggle" class="header__menu" aria-label="Menu">
                 <span class="header__menu-line"></span>
                 <span class="header__menu-line"></span>
                 <span class="header__menu-line"></span>
             </label>
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
-                    <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
-                    <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
-                    <li><a href="doctor-who.html">Doctor Who et la réécriture du temps</a></li>
-                    <li><a href="calcul-nerveux.html">En quête d'un calcul du système nerveux</a></li>
-                    <li><a href="a-propos.html">À propos</a></li>
-                    <li><a href="glossaire.html">Glossaire</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
         </header>
+        <nav class="header__nav">
+            <div class="header__nav-header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
+                </div>
+                <label for="menu-toggle" class="header__nav-close" aria-label="Fermer le menu">×</label>
+            </div>
+            <ul class="header__nav-list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
+                <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
+                <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
+                <li><a href="doctor-who.html">Doctor Who et la réécriture du temps</a></li>
+                <li><a href="calcul-nerveux.html">En quête d'un calcul du système nerveux</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+            </ul>
+        </nav>
 
         <!-- Hero Section -->
         <section class="hero">
@@ -47,14 +51,14 @@
         <!-- Titre de la page -->
         <div class="section-title">
             <div class="section-title__line"></div>
-            <h2 class="section-title__text">Ada Lovelace, pionnière de l'intelligence symbolique</h2>
+            <h2 class="section-title__text">Ada Lovelace, pionnière de l'intelligence symbolique, entre vision mathématique et poésie mécanique</h2>
         </div>
 
         <!-- Article -->
         <article class="article">
             <!-- Image principale -->
-            <img src="../assets/img/ada-portrait-main.jpg" alt="Portrait d'Ada Lovelace" class="article__image">
-            <p class="article__caption">Portrait par Margaret Sarah Carpenter (1836)</p>
+            <img src="../assets/img/article1photo1.avif" alt="Portrait d'Ada Lovelace" class="article__image">
+            <p class="article__caption">Portrait par Alfred Edward Chalon (1840)</p>
 
             <!-- Section 1 -->
             <h3 class="article__section-title">La pionnière visionnaire de l'informatique moderne</h3>
@@ -63,24 +67,24 @@
             </p>
 
             <!-- Image 2 -->
-            <img src="../assets/img/ada-work.jpg" alt="Travaux d'Ada Lovelace" class="article__image">
+            <img src="../assets/img/article1photo2.avif" alt="Charles Babbage" class="article__image">
+            <p class="article__caption">Charles Babbage, 1860.</p>
 
             <!-- Section 2 -->
             <h3 class="article__section-title">La rencontre décisive avec Charles Babbage</h3>
             <p class="article__content">
                 C'est en 1833 qu'Ada Lovelace rencontre Charles Babbage, inventeur du moteur analytique, ancêtre mécanique de l'ordinateur moderne. Alors que Babbage conçoit cette machine comme un simple calculateur numérique, Ada perçoit immédiatement un potentiel bien plus vaste. Elle comprend que cette machine pourrait manipuler non seulement des nombres, mais tout système symbolique : musique, textes, images.
             </p>
-            <p class="article__caption">Charles Babbage, 1860.</p>
 
             <!-- Image 3 -->
-            <img src="../assets/img/ada-notes.jpg" alt="Notes d'Ada Lovelace" class="article__image">
+            <img src="../assets/img/article1photo3.avif" alt="Jeune Ada Lovelace" class="article__image">
+            <p class="article__caption">Portrait pris sur le site National Geographic kids</p>
 
             <!-- Section 3 -->
             <h3 class="article__section-title">Naissance du premier algorithme de l'histoire</h3>
             <p class="article__content">
                 Dans ses notes sur le moteur analytique, traduites et considérablement enrichies à partir d'un article du mathématicien italien Luigi Menabrea, Ada Lovelace développe ce qu'on peut considérer comme le premier algorithme informatique de l'histoire. Plus encore, elle théorise la notion de programmation en boucle et anticipe la capacité des machines à créer. Sa célèbre note G contient un algorithme pour calculer les nombres de Bernoulli, démontrant la puissance de la programmation séquentielle.
             </p>
-            <p class="article__caption">Portrait pris sur le site National Geographic kids</p>
 
             <!-- Section 4 -->
             <h3 class="article__section-title">Quand les mathématiques deviennent art</h3>
@@ -89,7 +93,8 @@
             </p>
 
             <!-- Image 4 -->
-            <img src="../assets/img/ada-vision.jpg" alt="Vision d'Ada Lovelace" class="article__image">
+            <img src="../assets/img/article1photo4.avif" alt="Illustration d'Ada Lovelace" class="article__image">
+            <p class="article__caption">Illustration d'Ada Lovelace prise sur "nasty women writers"</p>
 
             <!-- Section 5 -->
             <h3 class="article__section-title">Une vision prophétique</h3>
@@ -99,15 +104,14 @@
             <p class="article__content">
                 Aujourd'hui, alors que nous développons des IA capables de générer des textes, des images et de la musique, nous réalisons à quel point la vision d'Ada Lovelace était prophétique. Elle reste une source d'inspiration pour tous ceux qui croient que technologie et humanité ne s'opposent pas, mais peuvent s'enrichir mutuellement.
             </p>
-            <p class="article__caption">Illustration d'Ada Lovelace prise sur "nasty women writers"</p>
 
             <!-- Navigation articles -->
             <div style="display: flex; justify-content: space-between; margin: 40px 0; padding: 20px 0; border-top: 1px solid var(--rose);">
-                <a href="effet-matilda.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
+                <a href="calcul-nerveux.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
                     <span>←</span>
                     <span>Article précédent</span>
                 </a>
-                <a href="moteur-analytique.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
+                <a href="effet-matilda.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
                     <span>Article suivant</span>
                     <span>→</span>
                 </a>
@@ -117,7 +121,7 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer__logo">
-                <img src="../assets/img/logo.png" alt="Women Of Logics">
+                <img src="../assets/img/logo.avif" alt="Women Of Logics">
             </div>
             <p class="footer__author">Badarous Emma TP-A1</p>
             <p class="footer__credit">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
@@ -129,7 +133,7 @@
             </div>
             
             <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" class="footer__mmi">
-                <img src="../assets/img/logo-mmi.png" alt="MMI Montbéliard">
+                <img src="../assets/img/mmi.avif" alt="MMI Montbéliard">
             </a>
         </footer>
     </div>
