@@ -6,5 +6,5 @@
 - NOM : Badarous
 - PRÉNOM : Emma
 - GROUPE : A1
-- URL du site :
-- URL FIGMA : 
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/jXkpj89deBSQ41uDFfcji5/ada-lovelace?node-id=433-1033&t=pvDj4ha4U0njbViI-1
