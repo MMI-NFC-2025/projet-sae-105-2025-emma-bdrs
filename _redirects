@@ -1,4 +1,6 @@
-/ /fr/ 302! Language=fr
-/ /en/ 302! Language=en
-/en /en/home.html 301
-/en/ /en/home.html 301
+/ /fr/index.html 301
+/fr /fr/index.html 301
+/fr/ /fr/index.html 301
+/en /en/index.html 301
+/en/ /en/index.html 301
+/en/home.html /en/index.html 301
