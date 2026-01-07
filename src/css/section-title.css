@@ -1,0 +1,4 @@
+/* Section titre avec ligne */
+.section-title { position: relative; padding-left: 24.5px; margin: 20px 18px; }
+.section-title__line { position: absolute; left: 0; top: 0; width: 0; height: 100%; border-left: 5px solid var(--rose); }
+.section-title__text { font-size: 20px; font-weight: 700; color: var(--bordeaux); }

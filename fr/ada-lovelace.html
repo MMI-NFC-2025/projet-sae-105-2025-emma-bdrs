@@ -13,9 +13,14 @@
         <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
         <header class="header">
             <div class="header__logo">
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../assets/img/logo.avif" alt="Women Of Logics">
                 </a>
+            </div>
+            <div class="header__languages">
+                <a href="#" class="header__languages-link header__languages-link--active">FR</a>
+                <span class="header__languages-separator"></span>
+                <a href="../en/ada-lovelace.html" class="header__languages-link">En</a>
             </div>
             <label for="menu-toggle" class="header__menu" aria-label="Menu">
                 <span class="header__menu-line"></span>
@@ -26,12 +31,12 @@
         <nav class="header__nav">
             <div class="header__nav-header">
                 <div class="header__logo">
-                    <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
+                    <a href="../index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
                 </div>
                 <label for="menu-toggle" class="header__nav-close" aria-label="Fermer le menu">×</label>
             </div>
             <ul class="header__nav-list">
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="../index.html">Accueil</a></li>
                 <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
                 <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
                 <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
@@ -106,12 +111,12 @@
             </p>
 
             <!-- Navigation articles -->
-            <div style="display: flex; justify-content: space-between; margin: 40px 0; padding: 20px 0; border-top: 1px solid var(--rose);">
-                <a href="calcul-nerveux.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
+            <div class="article__nav">
+                <a href="calcul-nerveux.html" class="article__nav-link">
                     <span>←</span>
                     <span>Article précédent</span>
                 </a>
-                <a href="effet-matilda.html" style="display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px;">
+                <a href="effet-matilda.html" class="article__nav-link">
                     <span>Article suivant</span>
                     <span>→</span>
                 </a>
@@ -126,16 +131,11 @@
             <p class="footer__author">Badarous Emma TP-A1</p>
             <p class="footer__credit">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
             
-            <div class="footer__languages">
-                <span>FR</span>
-                <span class="footer__lang-separator"></span>
-                <a href="../en/ada-lovelace.html">En</a>
-            </div>
-            
             <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" class="footer__mmi">
                 <img src="../assets/img/mmi.avif" alt="MMI Montbéliard">
             </a>
         </footer>
     </div>
+    <script src="../src/js/script.js"></script>
 </body>
 </html>

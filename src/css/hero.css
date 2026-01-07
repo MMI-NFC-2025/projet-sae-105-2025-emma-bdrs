@@ -1,0 +1,5 @@
+/* Hero */
+.hero { background-color: var(--violet); padding: 10px 20px; color: var(--beige); }
+.hero__subtitle { color: var(--rose); font-size: 20px; font-weight: 700; margin-bottom: 7px; }
+.hero__title { font-size: 30px; font-weight: 400; margin-bottom: 7px; }
+.hero__description { color: var(--rose); font-size: 15px; line-height: 25.5px; }

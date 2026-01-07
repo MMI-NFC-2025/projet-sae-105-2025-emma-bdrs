@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ada Lovelace, première programmeuse de l'histoire, victime de l'effet Matilda. Découvrez son histoire et sa contribution à l'informatique moderne.">
+    <meta name="description" content="Ada Lovelace, first programmer in history, victim of the Matilda effect. Discover her story and contribution to modern computing.">
     <title>Ada Lovelace - Women Of Logics</title>
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
@@ -17,6 +17,11 @@
                     <img src="../assets/img/logo.avif" alt="Women Of Logics">
                 </a>
             </div>
+            <div class="header__languages">
+                <a href="../index.html" class="header__languages-link">FR</a>
+                <span class="header__languages-separator"></span>
+                <a href="#" class="header__languages-link header__languages-link--active">En</a>
+            </div>
             <label for="menu-toggle" class="header__menu" aria-label="Menu">
                 <span class="header__menu-line"></span>
                 <span class="header__menu-line"></span>
@@ -28,16 +33,16 @@
                 <div class="header__logo">
                     <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
                 </div>
-                <label for="menu-toggle" class="header__nav-close" aria-label="Fermer le menu">×</label>
+                <label for="menu-toggle" class="header__nav-close" aria-label="Close menu">×</label>
             </div>
             <ul class="header__nav-list">
-                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
-                <li><a href="effet-matilda.html">Des figures effacées à la lumière</a></li>
-                <li><a href="moteur-analytique.html">Du moteur analytique au calcul du vivant</a></li>
-                <li><a href="doctor-who.html">Doctor Who et la réécriture du temps</a></li>
-                <li><a href="calcul-nerveux.html">En quête d'un calcul du système nerveux</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="effet-matilda.html">From Erased Figures to the Light</a></li>
+                <li><a href="moteur-analytique.html">From the Analytical Engine to Living Computation</a></li>
+                <li><a href="doctor-who.html">Doctor Who and Rewriting Time</a></li>
+                <li><a href="calcul-nerveux.html">In Quest of a Nervous System Calculus</a></li>
+                <li><a href="a-propos.html">About</a></li>
             </ul>
         </nav>
 
@@ -45,23 +50,18 @@
         <section class="hero">
             <p class="hero__subtitle">Women Of Logics</p>
             <h1 class="hero__title">Ada Lovelace</h1>
-            <p class="hero__description">Pionnière oubliée de l'informatique</p>
+            <p class="hero__description">Forgotten Pioneer of Computing</p>
         </section>
 
         <!-- Titre de la page -->
         <div class="section-title">
             <div class="section-title__line"></div>
-            <h2 class="section-title__text">L'effet matilda & Ada Lovelace</h2>
+            <h2 class="section-title__text">The Matilda Effect & Ada Lovelace</h2>
         </div>
 
         <!-- Introduction -->
         <section class="intro">
-            <p>Ada Lovelace, première programmeuse de l'histoire, a longtemps été éclipsée par ses contemporains masculins. Découvrez son histoire et sa contribution à l'informatique moderne.</p>
-            <p>Ce site explore comment cette visionnaire du XIXe siècle a anticipé l'ère numérique, et pourquoi son nom reste encore trop méconnu.</p>
-            
-            <div class="intro__image">
-                <img src="../assets/img/ada_accueil.avif" alt="Portrait d'Ada Lovelace">
-            </div>
+            <img src="../assets/img/anglais.avif" alt="Ada Lovelace">
         </section>
 
         <!-- Section Articles -->
@@ -75,44 +75,44 @@
                     <img src="../assets/img/article1.avif" alt="Ada Lovelace">
                 </a>
                 <a href="effet-matilda.html" class="carrousel__item">
-                    <img src="../assets/img/article2.avif" alt="L'effet Matilda">
+                    <img src="../assets/img/article2.avif" alt="The Matilda Effect">
                 </a>
                 <a href="moteur-analytique.html" class="carrousel__item">
-                    <img src="../assets/img/article3.avif" alt="Du moteur analytique au calcul du vivant">
+                    <img src="../assets/img/article3.avif" alt="From the Analytical Engine to Living Computation">
                 </a>
                 <a href="doctor-who.html" class="carrousel__item">
-                    <img src="../assets/img/article4.avif" alt="Doctor Who et la réécriture du temps">
+                    <img src="../assets/img/article4.avif" alt="Doctor Who and Rewriting Time">
                 </a>
                 <a href="calcul-nerveux.html" class="carrousel__item">
-                    <img src="../assets/img/article5.avif" alt="En quête d'un calcul du système nerveux">
+                    <img src="../assets/img/article5.avif" alt="In Quest of a Nervous System Calculus">
                 </a>
             </div>
         </div>
 
         <!-- Section Livres -->
         <div class="section-header">
-            <h2 class="section-header__title">Quelques livres</h2>
+            <h2 class="section-header__title">Some Books</h2>
         </div>
 
         <div class="carrousel carrousel-livres">
             <div class="carrousel__container">
-                <a href="https://www.abebooks.com/9781481452496/Ada-Lovelace-Poet-Science-First-1481452495/plp" target="_blank" class="carrousel__item">
+                <a href="https://www.abebooks.com/9781481452496/Ada-Lovelace-Poet-Science-First-1481452495/plp" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/livre1.avif" alt="Ada Lovelace, Poet of Science">
                     <p class="carrousel__item-title">Ada Lovelace, Poet of Science</p>
                 </a>
-                <a href="https://journal.sciencemuseum.ac.uk/article/lovelace-and-babbage/" target="_blank" class="carrousel__item">
+                <a href="https://journal.sciencemuseum.ac.uk/article/lovelace-and-babbage/" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/livre2.avif" alt="The Thrilling Adventures of Lovelace and Babbage">
                     <p class="carrousel__item-title">The Thrilling Adventures of Lovelace and Babbage</p>
                 </a>
-                <a href="#" target="_blank" class="carrousel__item">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/livre3.avif" alt="Ada Byron Lovelace and the Thinking Machine">
                     <p class="carrousel__item-title">Ada Byron Lovelace and the Thinking Machine</p>
                 </a>
-                <a href="https://www.goodreads.com/book/show/2476166.Women_Scientists_in_America" target="_blank" class="carrousel__item">
+                <a href="https://www.goodreads.com/book/show/2476166.Women_Scientists_in_America" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/livre4.avif" alt="Women scientists in America">
                     <p class="carrousel__item-title">Women scientists in America</p>
                 </a>
-                <a href="https://en.wikipedia.org/wiki/Invisible_Women:_Exposing_Data_Bias_in_a_World_Designed_for_Men" target="_blank" class="carrousel__item">
+                <a href="https://en.wikipedia.org/wiki/Invisible_Women:_Exposing_Data_Bias_in_a_World_Designed_for_Men" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/livre5.avif" alt="Invisible Women">
                     <p class="carrousel__item-title">Invisible Women</p>
                 </a>
@@ -121,77 +121,65 @@
 
         <!-- Section Films -->
         <div class="section-header">
-            <h2 class="section-header__title">Quelques Films</h2>
+            <h2 class="section-header__title">Some Films</h2>
         </div>
 
-        <div class="carrousel">
+        <div class="carrousel carrousel-films">
             <div class="carrousel__container">
-                <a href="https://www.imdb.com/fr/title/tt5980290/" target="_blank" class="carrousel__item">
+                <a href="https://www.imdb.com/fr/title/tt5980290/" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/film1.avif" alt="Calculating Ada">
                     <p class="carrousel__item-title">Calculating Ada</p>
                 </a>
-                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=15753.html" target="_blank" class="carrousel__item">
+                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=15753.html" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/film2.avif" alt="Contact">
                     <p class="carrousel__item-title">Contact</p>
                 </a>
-                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=254043.html" target="_blank" class="carrousel__item">
+                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=254043.html" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/film3.avif" alt="Radioactive">
                     <p class="carrousel__item-title">Radioactive</p>
                 </a>
-                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=32921.html" target="_blank" class="carrousel__item">
+                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=32921.html" target="_blank" rel="noopener noreferrer" class="carrousel__item">
                     <img src="../assets/img/film4.avif" alt="Conceiving Ada">
                     <p class="carrousel__item-title">Conceiving Ada</p>
                 </a>
-                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=219070.html" target="_blank" class="carrousel__item">
-                    <img src="../assets/img/film5.avif" alt="Les figures de l'ombre">
-                    <p class="carrousel__item-title">Les figures de l'ombre</p>
+                <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=219070.html" target="_blank" rel="noopener noreferrer" class="carrousel__item">
+                    <img src="../assets/img/film5.avif" alt="Hidden Figures">
+                    <p class="carrousel__item-title">Hidden Figures</p>
                 </a>
             </div>
         </div>
 
         <!-- Section Contact -->
         <section class="contact-section">
-            <h2 class="contact-section__title">Une question ? Une remarque ?</h2>
-            <a href="contact.html" class="contact-section__btn">Nous contacter</a>
+            <h2 class="contact-section__title">A question? A comment?</h2>
+            <a href="contact.html" class="contact-section__btn">Contact us</a>
         </section>
 
         <!-- Autres projets -->
         <section class="other-projects" id="autres-projets">
-            <h2 class="other-projects__title">D'autres projets</h2>
+            <h2 class="other-projects__title">Other Projects</h2>
             <div class="other-projects__list">
                 <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/7OzgHBMvYBOowtRog99ZoI/" target="_blank">
+                    <a href="https://www.figma.com/proto/7OzgHBMvYBOowtRog99ZoI/" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/projet1.avif" alt="Nargis Ayyobi" class="other-projects__avatar">
                         <p class="other-projects__name">Nargis Ayyobi</p>
                     </a>
                 </div>
                 <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/KVZYbiIEk156CYGZhbusRP/" target="_blank">
+                    <a href="https://www.figma.com/proto/KVZYbiIEk156CYGZhbusRP/" target="_blank" rel="noopener noreferrer">
                         <img src="../assets/img/projet2.avif" alt="Merlin Henry" class="other-projects__avatar">
                         <p class="other-projects__name">Merlin Henry</p>
                     </a>
                 </div>
                 <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/BafxNhdkhOxNQaI4qV3DZz/" target="_blank">
-                        <img src="../assets/img/projet3.avif" alt="Tylian Locatelli" class="other-projects__avatar">
-                        <p class="other-projects__name">Tylian Locatelli</p>
-                    </a>
-                </div>
-                <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/87K3TQFukGBt0nNhExyxzh/" target="_blank">
-                        <img src="../assets/img/projet4.avif" alt="Léonie Pruniaux" class="other-projects__avatar">
+                    <a href="https://www.figma.com/proto/87K3TQFukGBt0nNhExyxzh/" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/projet3.avif" alt="Léonie Pruniaux" class="other-projects__avatar">
                         <p class="other-projects__name">Léonie Pruniaux</p>
                     </a>
                 </div>
                 <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/6SIa8uDFgiAjBnARxKFB8U/" target="_blank">
-                        <img src="../assets/img/frame4.avif" alt="Noa Grevillot" class="other-projects__avatar">
-                        <p class="other-projects__name">Noa Grevillot</p>
-                    </a>
-                </div>
-                <div class="other-projects__item">
-                    <a href="https://www.figma.com/proto/SCVcYLd0agyS1dGYBPawVb/" target="_blank">
-                        <img src="../assets/img/ellipse7.avif" alt="Evan Gichtenaere" class="other-projects__avatar">
+                    <a href="https://www.figma.com/proto/SCVcYLd0agyS1dGYBPawVb/" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/projet4.avif" alt="Evan Gichtenaere" class="other-projects__avatar">
                         <p class="other-projects__name">Evan Gichtenaere</p>
                     </a>
                 </div>
@@ -204,18 +192,13 @@
                 <img src="../assets/img/logo.avif" alt="Women Of Logics">
             </div>
             <p class="footer__author">Badarous Emma TP-A1</p>
-            <p class="footer__credit">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+            <p class="footer__credit">Project created in 2025 as part of an educational exercise at the MMi department of Montbéliard</p>
             
-            <div class="footer__languages">
-                <span>FR</span>
-                <span class="footer__lang-separator"></span>
-                <a href="../en/index.html">En</a>
-            </div>
-            
-            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" class="footer__mmi">
+            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" rel="noopener noreferrer" class="footer__mmi">
                 <img src="../assets/img/mmi.avif" alt="MMI Montbéliard">
             </a>
         </footer>
     </div>
+    <script src="../src/js/script.js"></script>
 </body>
 </html>

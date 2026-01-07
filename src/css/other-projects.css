@@ -1,0 +1,7 @@
+/* Autres projets */
+.other-projects { padding: 20px; }
+.other-projects__title { font-size: 20px; font-weight: 700; margin-bottom: 20px; }
+.other-projects__list { display: flex; gap: 30px; overflow-x: auto; padding: 20px 0; }
+.other-projects__item { flex-shrink: 0; text-align: center; }
+.other-projects__avatar { width: 196px; height: 196px; border-radius: 50%; margin-bottom: 8px; object-fit: cover; }
+.other-projects__name { font-size: 15px; font-weight: 700; }

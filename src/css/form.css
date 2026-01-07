@@ -1,0 +1,7 @@
+/* Formulaire de contact */
+.contact-form { padding: 20px; }
+.contact-form__group { margin-bottom: 20px; }
+.contact-form__label { display: block; font-size: 18px; margin-bottom: 10px; color: var(--bordeaux); }
+.contact-form__input, .contact-form__textarea { width: 100%; padding: 12px; border: 2px solid var(--bordeaux); border-radius: 10px; background-color: transparent; font-family: var(--font-merriweather); font-size: 15px; color: var(--bordeaux); }
+.contact-form__input::placeholder, .contact-form__textarea::placeholder { color: rgba(51, 29, 44, 0.5); }
+.contact-form__textarea { min-height: 159px; resize: vertical; }

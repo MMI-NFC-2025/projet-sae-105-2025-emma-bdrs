@@ -1,0 +1,10 @@
+/* Variables CSS */
+:root {
+  --beige: #efe1d1;
+  --bordeaux: #331d2c;
+  --violet: #3f2e3e;
+  --rose: #a78295;
+  --blanc: #ffffff;
+  /* Polices */
+  --font-merriweather: 'Merriweather', serif;
+}

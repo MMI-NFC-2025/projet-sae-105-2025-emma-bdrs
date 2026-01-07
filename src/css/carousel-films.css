@@ -1,0 +1,8 @@
+/* Carrousel films */
+.carrousel-films .carrousel__container { gap: 50px; }
+.carrousel-films .carrousel__item-title { margin-top: 15px; text-align: center; font-size: 11px; padding: 0 5px; line-height: 1.2; }
+.carrousel-films .carrousel__item { width: 180px; }
+.carrousel-films .carrousel__item img { width: 180px; height: 240px; object-fit: contain; }
+/* Agrandir la première vignette des films */
+.carrousel-films .carrousel__item:first-child { width: 340px; }
+.carrousel-films .carrousel__item:first-child img { width: 340px; height: 240px; object-fit: contain; }

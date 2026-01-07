@@ -1,0 +1,8 @@
+/* Footer */
+.footer { background-color: var(--bordeaux); color: var(--blanc); padding: 20px; position: relative; }
+.footer__logo { width: 117px; margin-bottom: 15px; }
+.footer__author { font-size: 15px; margin-bottom: 10px; }
+.footer__credit { font-size: 10px; line-height: 1.4; max-width: 300px; }
+.footer__mmi { position: absolute; right: 20px; bottom: 20px; width: 62px; height: 41px; }
+.footer__languages { position: absolute; right: 20px; top: 18px; display: flex; align-items: center; gap: 10px; font-size: 15px; }
+.footer__lang-separator { width: 1px; height: 20px; background-color: var(--beige); transform: rotate(45deg); }

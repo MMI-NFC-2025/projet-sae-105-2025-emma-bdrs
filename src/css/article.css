@@ -1,0 +1,21 @@
+/* Page article */
+.article { padding: 20px; }
+.article__image { width: 100%; height: auto; border-radius: 0; margin: 20px 0; }
+.article__caption { font-size: 13px; color: var(--bordeaux); margin-top: 8px; font-style: italic; }
+.article__section-title { font-size: 20px; font-weight: 700; margin: 30px 0 15px; color: var(--bordeaux); }
+.article__content { font-size: 15px; line-height: 25.5px; margin-bottom: 20px; }
+/* Navigation entre articles */
+.article__nav { display: flex; justify-content: space-between; margin: 40px 0; padding: 20px 0; border-top: 1px solid var(--rose); }
+.article__nav-link { display: flex; align-items: center; gap: 10px; color: var(--bordeaux); font-size: 15px; transition: color 0.3s ease; }
+.article__nav-link:hover { color: var(--rose); }
+
+/* Frise chronologique */
+.timeline-image { width: 100%; height: auto; display: block; margin: 0; }
+
+/* Footer sans marge supplémentaire */
+.footer--no-margin { margin-top: 0; }
+.footer--extra-margin { margin-top: 50px; }
+
+/* Lien interne simple */
+.text-link { color: var(--bordeaux); transition: color 0.3s ease; }
+.text-link:hover { color: var(--rose); }

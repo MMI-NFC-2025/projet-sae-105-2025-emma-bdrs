@@ -1,0 +1,16 @@
+/* Menu overlay */
+.header__nav { position: fixed; top: 0; right: -100%; width: 100%; height: 100vh; background-color: var(--bordeaux); transition: right 0.3s ease; z-index: 102; display: flex; flex-direction: column; padding: 2rem; overflow-y: auto; }
+.header__nav-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+/* Afficher le menu quand le checkbox est coché */
+.header__menu-toggle:checked ~ .header__nav { right: 0; }
+/* Bouton fermer (X) */
+.header__nav-close { font-size: 3rem; color: var(--beige); cursor: pointer; line-height: 1; font-weight: 300; background: none; border: none; padding: 0; }
+/* Navigation du menu */
+.header__nav-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 2rem; }
+.header__nav-list li { text-align: left; }
+.header__nav-list a { color: var(--beige); text-decoration: none; font-size: 1.5rem; font-weight: 700; transition: color 0.3s ease; display: block; padding: 0.5rem 0; text-align: left; }
+.header__nav-list a:hover { color: var(--rose); }
+/* Animation hamburger -> X */
+.header__menu-toggle:checked ~ .header .header__menu .header__menu-line:nth-child(1) { transform: translateY(12.5px) rotate(45deg); }
+.header__menu-toggle:checked ~ .header .header__menu .header__menu-line:nth-child(2) { opacity: 0; }
+.header__menu-toggle:checked ~ .header .header__menu .header__menu-line:nth-child(3) { transform: translateY(-12.5px) rotate(-45deg); }

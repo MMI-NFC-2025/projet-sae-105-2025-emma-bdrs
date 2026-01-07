@@ -1,0 +1,5 @@
+/* Section contact */
+.contact-section { background-color: var(--violet); padding: 20px; margin-top: 30px; text-align: center; }
+.contact-section__title { color: var(--beige); font-size: 30px; font-weight: 900; margin-bottom: 20px; }
+.contact-section__btn { background-color: var(--beige); color: var(--bordeaux); padding: 18px 70px; border-radius: 12px; border: none; font-size: 20px; font-weight: 700; display: inline-block; cursor: pointer; transition: background-color 0.2s ease; text-decoration: none; margin-top: 20px; }
+.contact-section__btn:hover { background-color: var(--bordeaux); color: var(--beige); }

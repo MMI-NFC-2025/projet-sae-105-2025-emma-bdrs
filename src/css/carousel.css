@@ -1,0 +1,6 @@
+/* Carrousel */
+.carrousel { overflow-x: auto; overflow-y: hidden; padding: 20px 11px; scroll-behavior: smooth; }
+.carrousel__container { display: flex; gap: 50px; padding: 10px 0; }
+.carrousel__item { flex-shrink: 0; width: 340px; }
+.carrousel__item img { width: 340px; height: 250px; object-fit: cover; border-radius: 0; }
+.carrousel__item-title { margin-top: 10px; font-size: 13px; padding: 0 10px; }

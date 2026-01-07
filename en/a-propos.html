@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About the Ada Lovelace and Matilda effect project">
+    <title>About - Ada Lovelace</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <style>
+        .about-section {
+            padding: 20px;
+        }
+        
+        .about-section__title {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--bordeaux);
+        }
+        
+        .about-section__content {
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .about-section__divider {
+            width: 304px;
+            height: 2px;
+            background-color: var(--rose);
+            margin: 20px 0 20px 34px;
+        }
+        
+        .about-link {
+            color: var(--rose);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <input type="checkbox" id="menu-toggle" class="header__menu-toggle">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
+            </div>
+            <div class="header__languages">
+                <a href="../fr/a-propos.html" class="header__languages-link">FR</a>
+                <span class="header__languages-separator"></span>
+                <a href="#" class="header__languages-link header__languages-link--active">En</a>
+            </div>
+            <label for="menu-toggle" class="header__menu" aria-label="Menu">
+                <span class="header__menu-line"></span>
+                <span class="header__menu-line"></span>
+                <span class="header__menu-line"></span>
+            </label>
+        </header>
+        <nav class="header__nav">
+            <div class="header__nav-header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="../assets/img/logo.avif" alt="Women Of Logics"></a>
+                </div>
+                <label for="menu-toggle" class="header__nav-close" aria-label="Close menu">×</label>
+            </div>
+            <ul class="header__nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
+                <li><a href="effet-matilda.html">From Erased Figures to the Light</a></li>
+                <li><a href="moteur-analytique.html">From the Analytical Engine to Living Computation</a></li>
+                <li><a href="doctor-who.html">Doctor Who and Rewriting Time</a></li>
+                <li><a href="calcul-nerveux.html">In Quest of a Nervous System Calculus</a></li>
+                <li><a href="a-propos.html">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <p class="hero__subtitle">Women Of Logics</p>
+            <h1 class="hero__title">Ada Lovelace</h1>
+            <p class="hero__description">Forgotten Pioneer of Computing</p>
+        </section>
+
+        <!-- Titre de la page -->
+        <div class="section-title">
+            <div class="section-title__line"></div>
+            <h2 class="section-title__text">About</h2>
+        </div>
+
+        <!-- Contenu À propos -->
+        <div class="about-section">
+            <!-- Autres projets -->
+            <h3 class="about-section__title">Other Projects</h3>
+            <p class="about-section__content">
+                Also discover my classmates' projects, you can access them in the 
+                <a href="index.html#autres-projets" class="about-link">other projects</a> section
+            </p>
+            
+            <div class="about-section__divider"></div>
+
+            <!-- À propos de moi -->
+            <h3 class="about-section__title">About Me</h3>
+            <p class="about-section__content">
+                My name is Emma Badarous, 18 years old, student in MMI (multimedia and internet professions)<br>
+                For my website project, I explore the Matilda effect, a phenomenon that denounces the invisibilization of women in scientific discoveries.<br>
+                My guiding thread is Ada Lovelace, programming pioneer and muse of algorithmic thought.<br>
+                Through this site, I want to revive the forgotten legacy of women in science and highlight the modernity of Ada Lovelace, in a journey between art, technology and memory, where design connects past and future.
+            </p>
+
+            <div class="about-section__divider"></div>
+
+            <!-- Présentation du sujet -->
+            <h3 class="about-section__title">Project Presentation</h3>
+            <p class="about-section__content">
+                The project consists of creating a mobile-first website dedicated to Ada Lovelace, an emblematic figure victim of the Matilda effect.
+                <br><br>
+                The site, available in French and English, will offer a home page presenting articles on Ada Lovelace, women of science in literature, popularization of her theory, rehabilitation of female figures through series, as well as an object related to the theme from the University Library.
+                <br><br>
+                Other content will enrich the site: a timeline of forgotten women scientists, a film gallery, series excerpts and a contact form.
+                <br><br>
+                The objective is to design a site that is both aesthetic, educational and eco-responsible, aiming for an "A" score on ecoindex.fr, to value the memory of women scientists in a modern and sustainable approach.
+            </p>
+
+            <div class="about-section__divider"></div>
+
+            <!-- Glossaire -->
+            <h3 class="about-section__title">
+                <a href="glossaire.html" class="text-link">Glossary</a>
+            </h3>
+        </div>
+
+        <!-- Frise chronologique -->
+        <img src="../assets/img/frise.avif" alt="Timeline of women scientists" class="timeline-image">
+
+        <!-- Footer -->
+        <footer class="footer footer--no-margin">
+            <div class="footer__logo">
+                <img src="../assets/img/logo.avif" alt="Women Of Logics">
+            </div>
+            <p class="footer__author">Badarous Emma TP-A1</p>
+            <p class="footer__credit">Project created in 2025 as part of an educational exercise at the MMi department of Montbéliard</p>
+            
+            <a href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/" target="_blank" class="footer__mmi">
+                <img src="../assets/img/mmi.avif" alt="MMI Montbéliard">
+            </a>
+        </footer>
+    </div>
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

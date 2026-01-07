@@ -1,0 +1,3 @@
+/* Section header */
+.section-header { background-color: var(--violet); padding: 12px 20px; }
+.section-header__title { color: var(--beige); font-size: 30px; font-weight: 400; }
