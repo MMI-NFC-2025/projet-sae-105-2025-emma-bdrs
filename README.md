@@ -6,5 +6,5 @@
 - NOM : Badarous
 - PRÉNOM : Emma
 - GROUPE : A1
-- URL du site : https://delicate-creponne-925d23.netlify.app/fr/ 
+- URL du site : https://delicate-creponne-925d23.netlify.app/fr/  /  https://adalovelace.badarous.fr/ 
 - URL FIGMA : https://www.figma.com/design/jXkpj89deBSQ41uDFfcji5/ada-lovelace?node-id=433-1033&t=pvDj4ha4U0njbViI-1
